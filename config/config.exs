@@ -5,6 +5,9 @@ config :plausible,
 
 config :plausible, PlausibleWeb.Endpoint, pubsub_server: Plausible.PubSub
 
+# i18n
+config :plausible, Plausible.Gettext, default_locale: "zh"
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
