@@ -23,7 +23,7 @@ defmodule PlausibleWeb.Tracker do
     |> List.flatten()
 
   @base_filenames ["plausible", "script", "analytics"]
-  @files_available ["plausible.js", "p.js"] ++ Enum.map(variants, fn v -> "plausible.#{v}.js" end)
+  @files_available ["hg.js", "p.js"] ++ Enum.map(variants, fn v -> "plausible.#{v}.js" end)
 
   def init(opts) do
     Keyword.merge(opts, files_available: MapSet.new(@files_available))

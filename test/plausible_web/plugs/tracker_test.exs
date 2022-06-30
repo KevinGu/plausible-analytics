@@ -7,7 +7,7 @@ defmodule PlausibleWeb.TrackerTest do
   end
 
   test "returns plausible script with every alias" do
-    plausible_js_response = get_script("plausible.js")
+    plausible_js_response = get_script("hg.js")
 
     assert plausible_js_response == get_script("script.js")
     assert plausible_js_response == get_script("analytics.js")

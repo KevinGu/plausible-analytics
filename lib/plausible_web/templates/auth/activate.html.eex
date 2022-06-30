@@ -4,7 +4,7 @@
       <h2 class="text-xl font-black dark:text-gray-100">Activate your account</h2>
 
       <div class="mt-2 text-sm text-gray-500 dark:text-gray-200 leading-tight">
-        Please enter the 4-digit code we sent to <b><%= @conn.assigns[:current_user].email %></b>
+        请输入邮件中收到的4位验证码 <b><%= @conn.assigns[:current_user].email %></b>
       </div>
 
       <div class="mt-12 flex items-stretch flex-grow">
@@ -16,19 +16,19 @@
       <%= error_tag(assigns, :error) %>
 
       <div class="mt-16 text-sm dark:text-gray-100">
-        Didn't receive an email?
+        没有收到验证码邮件?
       </div>
       <ol class="list-disc text-xs text-gray-500 leading-tight space-y-1 mt-1">
-        <li>Check your spam folder</li>
+        <li>检查您的邮件垃圾箱</li>
         <li><%= link("Send a new code", class: "underline text-indigo-600", to: "/activate/request-code", method: :post) %> to <%= @conn.assigns[:current_user].email %></li>
         <%= if Application.get_env(:plausible, :is_selfhost) do %>
           <li>Ask on our <%= link("community-supported forum", to: "https://github.com/plausible/analytics/discussions", class: "text-indigo-600 underline" ) %></li>
         <% else %>
-          <li>Contact <a class="underline text-indigo-600" href="mailto:support@plausible.io">support@plausible.io</a> if the problem persists</li>
+          <li>如果问题没有解决，请发送邮件至 <a class="underline text-indigo-600" href="mailto:support@plausible.io">support@hrefgo.com</a></li>
         <% end %>
       </ol>
       <div class="mt-4 text-sm dark:text-gray-100">
-        Entered the wrong email address?
+        输入了错误的电子邮箱地址？
       </div>
       <ul class="list-disc text-xs text-gray-500 leading-tight mt-1">
         <li>
