@@ -87,6 +87,7 @@ defmodule Plausible.MixProject do
       {:clickhouse_ecto, git: "https://github.com/plausible/clickhouse_ecto.git"},
       {:location, git: "https://github.com/plausible/location.git"},
       {:geolix_adapter_mmdb2, "~> 0.5.0"},
+      {:gettext, "~> 0.19.1"},
       {:cachex, "~> 3.4"},
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},

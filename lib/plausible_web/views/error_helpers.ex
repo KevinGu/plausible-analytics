@@ -1,3 +1,5 @@
+import PlausibleWeb.Gettext
+
 defmodule PlausibleWeb.ErrorHelpers do
   use Phoenix.HTML
 
