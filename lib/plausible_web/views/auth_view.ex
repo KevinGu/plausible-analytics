@@ -1,3 +1,5 @@
+import PlausibleWeb.Gettext
+
 defmodule PlausibleWeb.AuthView do
   use PlausibleWeb, :view
   alias Plausible.Billing.Plans

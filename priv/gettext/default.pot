@@ -1,0 +1,21 @@
+## This file is a PO Template file.
+##
+## "msgid"s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
+##
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here has no
+## effect: edit them in PO (.po) files instead.
+msgid ""
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/login_form.html.eex:2
+msgid "Enter your email and password"
+msgstr "请输入邮箱和密码"
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/activate.html.eex:7
+msgid "Please enter the 4-digit code we sent to "
+msgstr ""
