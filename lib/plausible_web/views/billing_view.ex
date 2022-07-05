@@ -1,3 +1,5 @@
+import PlausibleWeb.Gettext
+
 defmodule PlausibleWeb.BillingView do
   use PlausibleWeb, :view
 
