@@ -1,5 +1,3 @@
-import PlausibleWeb.Gettext
-
 defmodule PlausibleWeb.ErrorView do
   use PlausibleWeb, :view
 

@@ -1,5 +1,3 @@
-import PlausibleWeb.Gettext
-
 defmodule PlausibleWeb.PageView do
   use PlausibleWeb, :view
 

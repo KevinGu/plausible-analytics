@@ -5,7 +5,7 @@ config :plausible,
 
 config :plausible, PlausibleWeb.Endpoint, pubsub_server: Plausible.PubSub
 
-config :plausible, PlausibleWeb.Gettext, default_locale: "zh", locales: ~w(en zh)
+config :plausible, PlausibleWeb.Gettext, default_locale: "zh_CN", locales: ~w(zh_CN en)
 
 # Configures Elixir's Logger
 config :logger, :console,

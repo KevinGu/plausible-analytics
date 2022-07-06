@@ -1,5 +1,3 @@
-import PlausibleWeb.Gettext
-
 defmodule PlausibleWeb.EmailView do
   use PlausibleWeb, :view
 

@@ -87,7 +87,6 @@ defmodule Plausible.MixProject do
       {:clickhouse_ecto, git: "https://github.com/plausible/clickhouse_ecto.git"},
       {:location, git: "https://github.com/plausible/location.git"},
       {:geolix_adapter_mmdb2, "~> 0.5.0"},
-      {:gettext, "~> 0.19.1"},
       {:cachex, "~> 3.4"},
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
@@ -105,8 +104,7 @@ defmodule Plausible.MixProject do
       {:opentelemetry_exporter, "~> 1.0"},
       {:opentelemetry_phoenix, "~> 1.0"},
       {:telemetry, "~> 1.0", override: true},
-      {:opentelemetry_ecto, "~> 1.0.0"},
-      {:gettext, "~> 0.19.1"}
+      {:opentelemetry_ecto, "~> 1.0.0"}
     ]
   end
 

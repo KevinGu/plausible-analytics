@@ -1,5 +1,3 @@
-import PlausibleWeb.Gettext
-
 defmodule PlausibleWeb.SiteView do
   use PlausibleWeb, :view
   import Phoenix.Pagination.HTML
