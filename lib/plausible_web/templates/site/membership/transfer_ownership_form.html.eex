@@ -2,11 +2,11 @@
   <h2 class="text-xl font-black dark:text-gray-100">Transfer ownership of <%= @site.domain %></h2>
 
   <p class="mt-4 max-w-2xl text-sm text-gray-500">
-    Enter the email address of the new owner. We will contact them over email to offer them the ownership of <%= @site.domain %>.
+    <%= gettext "Enter the email address of the new owner. We will contact them over email to offer them the ownership of %{domain}.",domain: @site.domain%>
   </p>
   <p class="mt-4 max-w-2xl text-sm text-gray-500">
-    If they accept the transfer request, the new owner will be responsible for billing. Your access will be downgraded to <b>admin</b> and
-    any other member roles will stay the same. If they don't respond in 48 hours, the request will expire automatically.
+    <%= gettext "If they accept the transfer request, the new owner will be responsible for billing. Your access will be downgraded to <b>admin</b> and
+    any other member roles will stay the same. If they don't respond in 48 hours, the request will expire automatically."%>
   </p>
 
   <%= if @conn.assigns[:error] do %>
@@ -25,6 +25,6 @@
   </div>
 
   <div class="mt-6">
-    <%= submit("Request transfer", class: "button w-full") %>
+    <%= submit(gettext "Request transfer", class: "button w-full") %>
   </div>
 <% end %>

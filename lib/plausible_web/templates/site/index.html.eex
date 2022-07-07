@@ -10,12 +10,12 @@
         </div>
         <div class="ml-3">
           <h3 class="text-sm font-medium text-yellow-800">
-            Payment required
+            <%= gettext "Payment required" %>
           </h3>
           <div class="mt-2 text-sm text-yellow-700">
             <p>
-            To access the sites you own, you need to subscribe to a monthly or yearly payment plan.
-            <%= link("Upgrade now →", to: "/settings", class: "text-sm font-medium text-yellow-800") %>
+              <%= gettext "To access the sites you own, you need to subscribe to a monthly or yearly payment plan." %>
+            <%= link(gettext "Upgrade now →", to: "/settings", class: "text-sm font-medium text-yellow-800") %>
             </p>
           </div>
         </div>
@@ -25,14 +25,14 @@
 
   <div class="mt-6 pb-5 border-b border-gray-200 dark:border-gray-500 flex items-center justify-between">
     <h2 class="text-2xl font-bold leading-7 text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-9 sm:truncate flex-shrink-0">
-      My sites
+      <%= gettext "My sites"%>
     </h2>
-    <a href="/sites/new" class="button my-2 sm:my-0 w-auto">+ Add a website</a>
+    <a href="/sites/new" class="button my-2 sm:my-0 w-auto"><%= gettext "+ Add a website"%></a>
   </div>
 
   <ul class="my-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
     <%= if Enum.empty?(@sites ++ @invitations) do %>
-      <p class="dark:text-gray-100">You don't have any sites yet</p>
+      <p class="dark:text-gray-100"><%= gettext "You don't have any sites yet"%></p>
     <% end %>
 
     <%= for invitation <- @invitations do %>
@@ -45,7 +45,7 @@
             </div>
 
             <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">
-              Pending invitation
+              <%= gettext "Pending invitation"%>
             </span>
           </div>
           <div class="pl-8 mt-2 flex items-center justify-between">
@@ -92,11 +92,11 @@
       <nav class="px-4 py-3 flex items-center justify-between border-t border-gray-200 dark:border-gray-500 sm:px-6" aria-label="Pagination">
         <div class="hidden sm:block">
           <p class="text-sm text-gray-700 dark:text-gray-300">
-          Showing page
+            <%= gettext "Showing page"%>
           <span class="font-medium"><%= @pagination.page %></span>
-          of
+            <%= gettext "of"%>
           <span class="font-medium"><%= @pagination.total_pages %></span>
-          total
+            <%= gettext "total"%>
           </p>
         </div>
         <div class="flex-1 flex justify-between sm:justify-end">
@@ -152,21 +152,21 @@
               </div>
               <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                 <h3 class="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100" id="modal-title">
-                  Invitation for <span x-text="selectedInvitation && selectedInvitation.site.domain"></span>
+                  <%= gettext "Invitation for"%> <span x-text="selectedInvitation && selectedInvitation.site.domain"></span>
                 </h3>
                 <div class="mt-2">
                   <p class="text-sm text-gray-500 dark:text-gray-200">
-                    You've been invited to the <span x-text="selectedInvitation && selectedInvitation.site.domain"></span> analytics dashboard as <b class="capitalize" x-text="selectedInvitation && selectedInvitation.role">Admin</b>.
+                    <%= gettext "You've been invited to the <span x-text=\"selectedInvitation && selectedInvitation.site.domain\"></span> analytics dashboard as <b class=\"capitalize\" x-text=\"selectedInvitation && selectedInvitation.role\">Admin</b>."%>
                   </p>
                   <p x-show="selectedInvitation && selectedInvitation.role === 'owner'" class="mt-2 text-sm text-gray-500 dark:text-gray-200">
-                  If you accept the ownership transfer, you will be responsible for billing going forward.
+                    <%= gettext "If you accept the ownership transfer, you will be responsible for billing going forward."%>
                   <%= if is_nil(@current_user.trial_expiry_date) && is_nil(@current_user.subscription) do %>
                     <br/><br />
-                    You will have to enter your card details immediately with no 30-day trial.
+                    <%= gettext "You will have to enter your card details immediately with no 30-day trial."%>
                   <% end %>
                   <%= if Plausible.Billing.on_trial?(@current_user) do %>
                     <br/><br />
-                    Your 30-day free trial will end immediately and you will have to enter your card details to keep using Plausible.
+                    <%= gettext " Your 30-day free trial will end immediately and you will have to enter your card details to keep using Plausible."%>
                   <% end %>
                   </p>
                 </div>
@@ -175,10 +175,10 @@
           </div>
           <div class="bg-gray-50 dark:bg-gray-850 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
             <button class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 sm:ml-3 sm:w-auto sm:text-sm" data-method="post" data-csrf="<%= Plug.CSRFProtection.get_csrf_token() %>" x-bind:data-to="selectedInvitation && ('/sites/invitations/' + selectedInvitation.invitation_id + '/accept')">
-              Accept &amp; Continue
+              <%= gettext " Accept &amp; Continue"%>
             </button>
             <button type="button" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 dark:border-gray-500 shadow-sm px-4 py-2 bg-white dark:bg-gray-800 text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-850 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm" data-method="post" data-csrf="<%= Plug.CSRFProtection.get_csrf_token() %>" x-bind:data-to="selectedInvitation && ('/sites/invitations/' + selectedInvitation.invitation_id + '/reject')">
-              Reject
+              <%= gettext "Reject" %>
             </button>
           </div>
         </div>

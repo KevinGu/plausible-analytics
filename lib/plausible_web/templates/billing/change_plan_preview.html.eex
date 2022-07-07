@@ -1,12 +1,12 @@
 <div class="mx-auto mt-6 text-center">
-  <h1 class="text-3xl font-black dark:text-gray-100">Confirm new subscription plan</h1>
+  <h1 class="text-3xl font-black dark:text-gray-100"><%= gettext "Confirm new subscription plan"%></h1>
 </div>
 
 <div class="w-full max-w-lg px-4 mt-4 mx-auto">
   <div class="flex-1 bg-white dark:bg-gray-800 shadow-md rounded px-8 py-4 mb-4 mt-8">
-    <div class="text-lg font-bold dark:text-gray-100">Due now</div>
+    <div class="text-lg font-bold dark:text-gray-100"><%= gettext "Due now"%></div>
     <div class="block text-gray-500 dark:text-gray-200 text-sm">
-      Your card will be charged a pro-rated amount for the current billing period
+      <%= gettext "Your card will be charged a pro-rated amount for the current billing period"%>
     </div>
 
     <div class="flex flex-col mt-4">
@@ -16,10 +16,10 @@
             <thead>
               <tr>
                 <th class="px-6 py-3 border-b border-gray-200 bg-gray-100 dark:bg-gray-900 text-left text-xs leading-4 font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
-                  Amount
+                <%= gettext "Amount"%>
                 </th>
                 <th class="px-6 py-3 border-b border-gray-200 bg-gray-100 dark:bg-gray-900 text-left text-xs leading-4 font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
-                  Date
+                  <%= gettext "Date"%>
                 </th>
               </tr>
             </thead>
@@ -36,7 +36,7 @@
 
     <div class="pt-6"></div>
 
-    <div class="py-4 dark:text-gray-100 text-lg font-bold">Next payment</div>
+    <div class="py-4 dark:text-gray-100 text-lg font-bold"><%= gettext "Next payment"%></div>
 
 
     <div class="flex flex-col">
@@ -46,10 +46,10 @@
             <thead>
               <tr>
                 <th class="px-6 py-3 border-b border-gray-200 bg-gray-100 dark:bg-gray-900 text-left text-xs leading-4 font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
-                  Amount
+                  <%= gettext "Amount"%>
                 </th>
                 <th class="px-6 py-3 border-b border-gray-200 bg-gray-100 dark:bg-gray-900 text-left text-xs leading-4 font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
-                  Date
+                  <%= gettext "Date"%>
                 </th>
               </tr>
             </thead>
@@ -67,18 +67,18 @@
     <div class="flex items-center justify-between mt-10">
       <span class="flex rounded-md shadow-sm">
         <a href="/billing/change-plan" type="button" class="inline-flex items-center px-4 py-2 border border-gray-300 dark:border-gray-500 text-sm leading-5 font-medium rounded-md text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 hover:text-gray-500 dark:hover:text-gray-200 focus:outline-none focus:border-blue-300 focus:ring active:text-gray-800 dark:active:text-gray-200 active:bg-gray-50 transition ease-in-out duration-150">
-          Back
+          <%= gettext "Back" %>
         </a>
       </span>
       <span class="flex space-betwee rounded-md shadow-sm">
-        <%= button("Confirm plan change", to: "/billing/change-plan/#{@preview_info["plan_id"]}", method: :post, class: "inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:ring active:bg-indigo-700 transition ease-in-out duration-150") %>
+        <%= button(gettext "Confirm plan change", to: "/billing/change-plan/#{@preview_info["plan_id"]}", method: :post, class: "inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:ring active:bg-indigo-700 transition ease-in-out duration-150") %>
       </span>
     </div>
   </div>
 </div>
 
 <div class="text-center mt-8 dark:text-gray-100">
-  Questions? Contact <%= link("support@plausible.io", to: "mailto:support@plausible.io", class: "text-indigo-500") %>
+  <%= gettext "Questions? Contact"%> <%= link(gettext "support@plausible.io", to: "mailto:support@plausible.io", class: "text-indigo-500") %>
 </div>
 
 <%= render("_paddle_script.html") %>
