@@ -7,18 +7,18 @@
     <div class="text-red-500 text-xs italic mt-4"><%= @conn.assigns[:error] %></div>
   <% end %>
   <div class="my-4 mt-8">
-    <%= label f, :email, class: "block text-gray-700 dark:text-gray-300  text-sm font-bold mb-2" %>
+    <%= label f, :email, class: "block text-gray-700 dark:text-gray-300  text-sm font-bold mb-2" do gettext"Email" end%>
     <%= email_input f, :email, class: "bg-gray-100 dark:bg-gray-900 outline-none appearance-none border border-transparent rounded w-full p-2 text-gray-700 dark:text-gray-300 leading-normal appearance-none focus:outline-none focus:bg-white dark:focus:bg-gray-800 focus:border-gray-300 dark:focus:border-gray-500", placeholder: "user@example.com" %>
   </div>
   <div class="my-4">
-    <%= label f, :password, class: "block text-gray-700 dark:text-gray-300 text-sm font-bold mb-2" %>
+    <%= label f, :password, class: "block text-gray-700 dark:text-gray-300 text-sm font-bold mb-2" do gettext"Password" end%>
     <%= password_input f, :password, class: "transition bg-gray-100 dark:bg-gray-900 outline-none appearance-none border border-transparent rounded w-full p-2 text-gray-700 dark:text-gray-300 leading-normal appearance-none focus:outline-none focus:bg-white dark:focus:bg-gray-800 focus:border-gray-300 dark:focus:border-gray-500" %>
-    <p class="text-gray-500 text-xs my-2"><%= gettext "Forgot password?" %> <a href="/password/request-reset" class="underline text-gray-800 dark:text-gray-50"><%= gettext "Click here" %></a> <%= gettext "to reset it." %></p>
+    <p class="text-gray-500 text-xs my-2"><%= raw gettext "Forgot password? <a href=\"/password/request-reset\" class=\"underline text-gray-800 dark:text-gray-50\">Click here </a> to reset it." %></p>
   </div>
   <%= submit gettext "Login →", class: "button mt-4 w-full" %>
   <%= if Keyword.fetch!(Application.get_env(:plausible, :selfhost),:disable_registration) == false do %>
      <p class="text-center text-gray-500 text-xs mt-4">
-         <%= gettext "Don't have an account? " %><%= link(gettext "Register", to: "/register", class: "text-gray-800 dark:text-gray-50 underline") %> <%= gettext "instead" %>.
+         <%= raw gettext "Don't have an account? %{register_link} instead.", register_link: safe_to_string(link(gettext("Register"), to: "/register", class: "text-gray-800 dark:text-gray-50 underline"))%>
       </p>
   <% end %>
 <% end %>

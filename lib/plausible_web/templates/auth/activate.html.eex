@@ -46,7 +46,7 @@
 
       <%= error_tag(assigns, :error) %>
 
-      <%= button(gettext "Request activation code", to: "/activate/request-code", method: :post, class: "button mt-12") %>
+      <%= button(gettext("Request activation code"), to: "/activate/request-code", method: :post, class: "button mt-12") %>
 
     </div>
   <% end %>

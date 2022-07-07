@@ -2,7 +2,7 @@
   <h2 class="text-xl font-black dark:text-gray-100">Invite member to <%= @site.domain %></h2>
 
   <p class="mt-4 max-w-2xl text-sm text-gray-500 dark:text-gray-200">
-    <%= gettext "Enter the email address and role of the person you want to invite. We will contact them over email to offer them access to %{domain} analytics.", domain: @site.domain%>
+    <%= gettext "Enter the email address and role of the person you want to invite. We will contact them over email to offer them access to %{domain} analytics.", domain: @site.domain %>
   </p>
 
   <p class="mt-4 max-w-2xl text-sm text-gray-500 dark:text-gray-200">
