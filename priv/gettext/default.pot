@@ -1,25 +1,24 @@
-## "msgid"s in this file come from POT (.pot) files.
+## This file is a PO Template file.
 ##
-## Do not add, change, or remove "msgid"s manually here as
-## they're tied to the ones in the corresponding POT file
-## (with the same domain).
+## "msgid"s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
 ##
-## Use "mix gettext.extract --merge" or "mix gettext.merge"
-## to merge POT files into PO files.
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here has no
+## effect: edit them in PO (.po) files instead.
 msgid ""
 msgstr ""
-"Language: zh_CN\n"
-"Plural-Forms: nplurals=1\n"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/index.html.eex:178
 msgid " Accept &amp; Continue"
-msgstr "接受&继续"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/index.html.eex:169
 msgid " Your 30-day free trial will end immediately and you will have to enter your card details to keep using Plausible."
-msgstr "您的30天试用即将到到期，付费后继续试用。"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/invitation_expired.html.eex:10
@@ -29,7 +28,7 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/index.html.eex:30
 msgid "+ Add a website"
-msgstr "+ 增加站点"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/upgrade.html.eex:101
@@ -387,7 +386,7 @@ msgstr ""
 #: lib/plausible_web/templates/auth/login_form.html.eex:21
 #: lib/plausible_web/templates/auth/password_form.html.eex:12
 msgid "Don't have an account? %{register_link} instead."
-msgstr "没有账号？%{register_link}。"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/change_plan_preview.html.eex:7
@@ -412,27 +411,27 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/login_form.html.eex:10
 msgid "Email"
-msgstr "电子邮箱"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_visibility.html.eex:108
 msgid "Embed code"
-msgstr "嵌入代码"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_visibility.html.eex:69
 msgid "Embed dashboard"
-msgstr "嵌入仪表盘"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/email/activation_email.html.eex:3
 msgid "Enter %{code} to verify your email address. This code will expire in 4 hours."
-msgstr "输入%{code} 验证你的电子邮箱地址，验证码有效期4小时。"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_visibility.html.eex:78
 msgid "Enter shared link"
-msgstr "输入分享链接"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/membership/invite_member_form.html.eex:5
@@ -453,7 +452,7 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/login_form.html.eex:2
 msgid "Enter your email and password"
-msgstr "请输入电子邮箱和密码"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/password_reset_request_form.html.eex:3
@@ -474,7 +473,7 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/login_form.html.eex:16
 msgid "Forgot password? <a href=\"/password/request-reset\" class=\"underline text-gray-800 dark:text-gray-50\">Click here </a> to reset it."
-msgstr "忘记密码？<a href=\"/password/request-reset\" class=\"underline text-gray-800 dark:text-gray-50\">点此</a>重置。"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_general.html.eex:5
@@ -662,7 +661,7 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/login_form.html.eex:18
 msgid "Login →"
-msgstr "登陆 →"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_visibility.html.eex:15
@@ -804,7 +803,7 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/login_form.html.eex:14
 msgid "Password"
-msgstr "密码"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/new_shared_link.html.eex:13
@@ -903,7 +902,7 @@ msgstr ""
 #: lib/plausible_web/templates/auth/password_form.html.eex:12
 #: lib/plausible_web/templates/auth/password_reset_form.html.eex:13
 msgid "Register"
-msgstr "注册"
+msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/register_form.html.eex:2
