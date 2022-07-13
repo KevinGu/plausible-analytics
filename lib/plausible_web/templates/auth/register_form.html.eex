@@ -7,7 +7,7 @@
   <%= form_for @changeset, "/register", [class: "w-full max-w-md mx-auto bg-white dark:bg-gray-800 shadow-md rounded px-8 py-6 mb-4 mt-8", id: "register-form"], fn f -> %>
     <h2 class="text-xl font-black dark:text-gray-100"><%= gettext "Enter your details"%></h2>
     <div class="my-4">
-      <%= label f, :name, "Full name", class: "block text-sm font-medium text-gray-700 dark:text-gray-300" %>
+      <%= label f, :name, gettext("Full name"), class: "block text-sm font-medium text-gray-700 dark:text-gray-300" %>
       <div class="mt-1">
         <%= text_input f, :name, class: "dark:bg-gray-900 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 dark:border-gray-500 rounded-md dark:text-gray-300", placeholder: "Jane Doe" %>
       </div>
@@ -15,7 +15,7 @@
     </div>
     <div class="my-4">
       <div class="flex justify-between">
-      <%= label f, :email, class: "block text-sm font-medium text-gray-700 dark:text-gray-300" %>
+      <%= label f, :email, class: "block text-sm font-medium text-gray-700 dark:text-gray-300" do gettext"Email" end %>
       <p class="text-xs text-gray-500 mt-1"><%= gettext "No spam, guaranteed."%></p>
       </div>
       <div class="mt-1">
@@ -26,7 +26,7 @@
 
     <div class="my-4">
       <div class="flex justify-between">
-      <%= label f, :password, class: "block text-sm font-medium text-gray-700 dark:text-gray-300" %>
+      <%= label f, :password, class: "block text-sm font-medium text-gray-700 dark:text-gray-300" do gettext"Password" end%>
       <p class="text-xs text-gray-500 mt-1"><%= gettext "Min 6 characters"%></p>
       </div>
       <div class="mt-1">
@@ -53,7 +53,7 @@
       </div>
     <% end %>
 
-    <%= submit "Start my free trial →", class: "button mt-4 w-full" %>
+    <%= submit gettext("Start my free trial →"), class: "button mt-4 w-full" %>
 
     <p class="text-center text-gray-600 dark:text-gray-500  text-xs mt-4">
         <%= gettext "Already have an account?"%> <%= link(gettext "Log in", to: "/login", class: "underline text-gray-800 dark:text-gray-50") %> <%= gettext "instead."%>

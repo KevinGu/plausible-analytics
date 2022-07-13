@@ -4,7 +4,7 @@
       <h2 class="text-xl font-black dark:text-gray-100"><%= gettext "Activate your account" %></h2>
 
       <div class="mt-2 text-sm text-gray-500 dark:text-gray-200 leading-tight">
-          <%= gettext "Please enter the 4-digit code we sent to" %> <b><%= @conn.assigns[:current_user].email %></b>
+          <%= gettext "Please enter the 4-digit code we sent to <b>%{email}</b>", email: @conn.assigns[:current_user].email%>
       </div>
 
       <div class="mt-12 flex items-stretch flex-grow">
@@ -22,9 +22,9 @@
         <li><%= gettext "Check your spam folder" %></li>
         <li><%= link(gettext "Send a new code", class: "underline text-indigo-600", to: "/activate/request-code", method: :post) %> to <%= @conn.assigns[:current_user].email %></li>
         <%= if Application.get_env(:plausible, :is_selfhost) do %>
-          <li><%= gettext "Ask on our" %> <%= link("community-supported forum", to: "https://github.com/plausible/analytics/discussions", class: "text-indigo-600 underline" ) %></li>
+          <li><%= gettext "Ask on our" %> <%= link(gettext("community-supported forum"), to: "https://github.com/plausible/analytics/discussions", class: "text-indigo-600 underline" ) %></li>
         <% else %>
-          <li><%= gettext "Contact" %> <a class="underline text-indigo-600" href="mailto:support@plausible.io">support@plausible.io</a> <%= gettext "if the problem persists" %></li>
+          <li><%=raw gettext "Contact <a class=\"underline text-indigo-600\" href=\"mailto:support@hrefgo.com\">support@hrefgo.com</a> if the problem persists" %></li>
         <% end %>
       </ol>
       <div class="mt-4 text-sm dark:text-gray-100">
@@ -41,7 +41,7 @@
       <h2 class="text-xl font-black dark:text-gray-100"> <%= gettext "Activate your account" %></h2>
 
       <div class="mt-2 text-sm text-gray-500 dark:text-gray-200 leading-tight">
-          <%= gettext "A 4-digit activation code will be sent to" %> <b><%= @conn.assigns[:current_user].email %></b>
+          <%= gettext "A 4-digit activation code will be sent to <b>%{email}</b>",email: @conn.assigns[:current_user].email %>
       </div>
 
       <%= error_tag(assigns, :error) %>

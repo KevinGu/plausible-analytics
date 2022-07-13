@@ -21,11 +21,6 @@ msgid " Your 30-day free trial will end immediately and you will have to enter y
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/auth/invitation_expired.html.eex:10
-msgid " for a 30-day unlimited free trial without an invitation."
-msgstr ""
-
-#, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/index.html.eex:30
 msgid "+ Add a website"
 msgstr ""
@@ -52,7 +47,7 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/activate.html.eex:44
-msgid "A 4-digit activation code will be sent to"
+msgid "A 4-digit activation code will be sent to <b>%{email}</b>"
 msgstr ""
 
 #, elixir-autogen, elixir-format
@@ -222,11 +217,6 @@ msgid "Confirm plan change"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/auth/activate.html.eex:27
-msgid "Contact"
-msgstr ""
-
-#, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/stats/site_locked.html.eex:28
 msgid "Contact %{email} and ask them to"
 msgstr ""
@@ -378,13 +368,9 @@ msgid "Didn't receive an email?"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/auth/password_reset_form.html.eex:13
-msgid "Don't have an account?"
-msgstr ""
-
-#, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/login_form.html.eex:21
 #: lib/plausible_web/templates/auth/password_form.html.eex:12
+#: lib/plausible_web/templates/auth/password_reset_form.html.eex:13
 msgid "Don't have an account? %{register_link} instead."
 msgstr ""
 
@@ -410,6 +396,8 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/login_form.html.eex:10
+#: lib/plausible_web/templates/auth/register_form.html.eex:18
+#: lib/plausible_web/templates/auth/register_from_invitation_form.html.eex:10
 msgid "Email"
 msgstr ""
 
@@ -655,6 +643,7 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/register_form.html.eex:59
+#: lib/plausible_web/templates/auth/register_from_invitation_form.html.eex:59
 msgid "Log in"
 msgstr ""
 
@@ -802,6 +791,7 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/login_form.html.eex:14
+#: lib/plausible_web/templates/auth/register_form.html.eex:29
 msgid "Password"
 msgstr ""
 
@@ -843,7 +833,7 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/invitation_expired.html.eex:2
-msgid "Plausible Analytics"
+msgid "Hrefgo Analytics"
 msgstr ""
 
 #, elixir-autogen, elixir-format
@@ -853,10 +843,6 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/activate.html.eex:7
-msgid "Please enter the 4-digit code we sent to"
-msgstr ""
-
-#, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/register_success.html.eex:12
 msgid "Please enter the 4-digit code we sent to <b>%{email}</b>"
 msgstr ""
@@ -912,7 +898,7 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/register_from_invitation_form.html.eex:2
-msgid "Register your Plausible Analytics account"
+msgid "Register your Hrefgo Analytics account"
 msgstr ""
 
 #, elixir-autogen, elixir-format
@@ -973,6 +959,7 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:236
+#: lib/plausible_web/templates/auth/user_settings.html.eex:250
 msgid "Revoke"
 msgstr ""
 
@@ -1352,7 +1339,7 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/unsubscribe/success.html.eex:3
-msgid "You will no longer receive a %{interval} analytics report for "
+msgid "You will no longer receive a %{interval} analytics report for %{site}"
 msgstr ""
 
 #, elixir-autogen, elixir-format
@@ -1383,11 +1370,6 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/change_plan_preview.html.eex:9
 msgid "Your card will be charged a pro-rated amount for the current billing period"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/auth/invitation_expired.html.eex:10
-msgid "Your invitation has expired or been revoked. Please request fresh one or you can "
 msgstr ""
 
 #, elixir-autogen, elixir-format
@@ -1431,6 +1413,7 @@ msgid "and we will help you with your setup"
 msgstr ""
 
 #, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/activate.html.eex:25
 #: lib/plausible_web/templates/stats/waiting_first_pageview.html.eex:31
 msgid "community-supported forum"
 msgstr ""
@@ -1457,12 +1440,6 @@ msgid "here"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/auth/activate.html.eex:27
-msgid "if the problem persists"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/auth/password_reset_form.html.eex:13
 #: lib/plausible_web/templates/auth/register_form.html.eex:59
 #: lib/plausible_web/templates/auth/register_from_invitation_form.html.eex:59
 msgid "instead."
@@ -1527,4 +1504,64 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/stats/waiting_first_pageview.html.eex:29
 msgid "with our guide"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/invitation_expired.html.eex:10
+msgid "Your invitation has expired or been revoked. Please request fresh one or you can %{link} for a 30-day unlimited free trial without an invitation."
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/activate.html.eex:27
+msgid "Contact <a class=\"underline text-indigo-600\" href=\"mailto:support@hrefgo.com\">support@hrefgo.com</a> if the problem persists"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/user_settings.html.eex:259
+msgid "+ New API key"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/user_settings.html.eex:250
+msgid "Are you sure you want to revoke this key? This action cannot be reversed."
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/register_from_invitation_form.html.eex:56
+msgid "Create my account →"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/user_settings.html.eex:278
+msgid "Deleting your account will also delete all the sites and data that you own. This action cannot be reversed. Are you sure?"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/register_form.html.eex:10
+msgid "Full name"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/password_reset_request_success.html.eex:12
+msgid "If you are positive that you are using the correct email address but still aren't receiving the password reset email, please ask on our <a href=\"https://github.com/plausible/analytics/discussions\" class=\"text-indigo-500\">community-supported forum</a>."
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/password_reset_request_success.html.eex:14
+msgid "If you are positive that you are using the correct email address but still aren't receiving the password reset email, please contact <a href=\"mailto:support@hrefgo.com\" class=\"text-indigo-500\">support@plausible.io</a>."
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/register_success.html.eex:27
+msgid "Please check your spam folder and contact <a class=\"underline text-indigo-500\" href=\"mailto:support@plausible.io\">support@hrefgo.io</a> if the problem persists"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/user_settings.html.eex:42
+msgid "Please update your billing details before changing plans"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/auth/register_form.html.eex:56
+msgid "Start my free trial →"
 msgstr ""

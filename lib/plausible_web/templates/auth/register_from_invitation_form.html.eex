@@ -1,5 +1,5 @@
 <div class="mx-auto mt-6 text-center dark:text-gray-300">
-  <h1 class="text-3xl font-black"><%= gettext "Register your Plausible Analytics account"%></h1>
+  <h1 class="text-3xl font-black"><%= gettext "Register your Hrefgo Analytics account"%></h1>
   <div class="text-xl font-medium"><%= gettext "Set up privacy-friendly analytics with just a few clicks"%></div>
 </div>
 
@@ -7,7 +7,7 @@
   <h2 class="text-xl font-black dark:text-gray-100"><%= gettext "Enter your details"%></h2>
   <div class="my-4">
     <div class="flex justify-between">
-    <%= label f, :email, class: "block text-sm font-medium text-gray-700 dark:text-gray-300" %>
+    <%= label f, :email, class: "block text-sm font-medium text-gray-700 dark:text-gray-300" do gettext"Email" end%>
     <p class="text-xs text-gray-500 mt-1"><%= gettext "No spam, guaranteed."%></p>
     </div>
     <div class="mt-1">
@@ -53,9 +53,9 @@
     </div>
   <% end %>
 
-  <%= submit "Create my account →", class: "button mt-4 w-full" %>
+  <%= submit gettext("Create my account →"), class: "button mt-4 w-full" %>
 
   <p class="text-center text-gray-600 dark:text-gray-500  text-xs mt-4">
-    <%= gettext "Already have an account?"%> <%= link("Log in", to: "/login", class: "underline text-gray-800 dark:text-gray-50") %> <%= gettext "instead."%>
+    <%= gettext "Already have an account?"%> <%= link(gettext("Log in"), to: "/login", class: "underline text-gray-800 dark:text-gray-50") %> <%= gettext "instead."%>
   </p>
 <% end %>

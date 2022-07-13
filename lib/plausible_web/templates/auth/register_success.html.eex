@@ -24,7 +24,7 @@
         <%= gettext "Didn't receive an email?"%>
     </div>
     <div class="mt-2 text-sm text-gray-500 leading-tight">
-      Please check your spam folder and contact <a class="underline text-indigo-500" href="mailto:support@plausible.io">support@plausible.io</a> if the problem persists
+        <%= gettext "Please check your spam folder and contact <a class=\"underline text-indigo-500\" href=\"mailto:support@plausible.io\">support@hrefgo.io</a> if the problem persists"%>
     </div>
   <% end %>
 

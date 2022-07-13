@@ -39,7 +39,7 @@
           <% "active" -> %>
             <%= link(gettext "Change plan", to: "/billing/change-plan", class: "text-sm text-indigo-500 font-medium") %>
           <% "past_due" -> %>
-            <span class="text-sm font-medium text-gray-600 dark:text-gray-400" tooltip="Please update your billing details before changing plans"><%= gettext "Change plan"%></span>
+            <span class="text-sm font-medium text-gray-600 dark:text-gray-400" tooltip="<%= gettext "Please update your billing details before changing plans"%>"><%= gettext "Change plan"%></span>
           <% _ -> %>
         <% end %>
       <% else %>
@@ -247,7 +247,7 @@
                       <%= api_key.key_prefix %><%= String.duplicate("*", 32 - 6) %>
                     </td>
                     <td class="px-6 py-4 text-sm font-medium text-right whitespace-nowrap">
-                      <%= button("Revoke", to: "/settings/api-keys/#{api_key.id}", class: "text-red-600 hover:text-red-900", method: :delete, "data-confirm": "Are you sure you want to revoke this key? This action cannot be reversed.") %>
+                      <%= button(gettext("Revoke"), to: "/settings/api-keys/#{api_key.id}", class: "text-red-600 hover:text-red-900", method: :delete, "data-confirm": gettext("Are you sure you want to revoke this key? This action cannot be reversed.")) %>
                     </td>
                   </tr>
                 <% end %>
@@ -256,7 +256,7 @@
           </div>
         <% end %>
 
-        <%= link "+ New API key", to: "/settings/api-keys/new", class: "button mt-4" %>
+        <%= link gettext("+ New API key"), to: "/settings/api-keys/new", class: "button mt-4" %>
       </div>
     </div>
   </div>
@@ -275,6 +275,6 @@
     <span class="mt-6 bg-gray-300 button dark:bg-gray-600 hover:shadow-none hover:bg-gray-300"><%= gettext "Delete my account"%></span>
     <p class="mt-2 text-sm text-gray-600 dark:text-gray-400"><%= gettext "Your account cannot be deleted because you have an active subscription. If you want to delete your account, please cancel your subscription first."%></p>
   <% else %>
-    <%= link(gettext "Delete my account", to: "/me", class: "inline-block mt-4 px-4 py-2 border border-gray-300 dark:border-gray-500 text-sm leading-5 font-medium rounded-md text-red-700 bg-white dark:bg-gray-800 hover:text-red-500 dark:hover:text-red-400 focus:outline-none focus:border-blue-300 focus:ring active:text-red-800 active:bg-gray-50 transition ease-in-out duration-150", method: "delete", data: [confirm: "Deleting your account will also delete all the sites and data that you own. This action cannot be reversed. Are you sure?"]) %>
+    <%= link(gettext("Delete my account"), to: "/me", class: "inline-block mt-4 px-4 py-2 border border-gray-300 dark:border-gray-500 text-sm leading-5 font-medium rounded-md text-red-700 bg-white dark:bg-gray-800 hover:text-red-500 dark:hover:text-red-400 focus:outline-none focus:border-blue-300 focus:ring active:text-red-800 active:bg-gray-50 transition ease-in-out duration-150", method: "delete", data: [confirm: gettext("Deleting your account will also delete all the sites and data that you own. This action cannot be reversed. Are you sure?")]) %>
   <% end %>
 </div>
