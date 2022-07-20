@@ -1,8 +1,8 @@
 <div class="sm:rounded-md sm:overflow-hidden shadow">
   <div class="bg-white dark:bg-gray-800 py-6 px-4 space-y-6 sm:p-6">
     <div>
-      <h2 class="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">Danger zone</h2>
-      <p class="mt-1 text-sm leading-5 text-gray-500 dark:text-gray-200">Destructive actions below can result in irrecoverable data loss. Be careful.</p>
+      <h2 class="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100"><%= gettext "Danger zone"%></h2>
+      <p class="mt-1 text-sm leading-5 text-gray-500 dark:text-gray-200"><%= gettext "Destructive actions below can result in irrecoverable data loss. Be careful."%></p>
     </div>
     <li class="py-4 flex items-center justify-between space-x-4">
       <div class="flex flex-col">
@@ -13,7 +13,7 @@
         <%= gettext "Removes all pageviews but keeps the site configuration"%>
         </p>
       </div>
-      <%= link(gettext("Reset %{domain} stats",domain: @site.domain), to: "/#{URI.encode_www_form(@site.domain)}/stats", method: :delete, class: "inline-block mt-4 px-4 py-2 border border-gray-300 dark:border-gray-500 text-sm leading-5 font-medium rounded-md text-red-700 bg-white dark:bg-gray-800 hover:text-red-500 dark:hover:text-red-400 focus:outline-none focus:border-blue-300 focus:ring active:text-red-800 active:bg-gray-50 transition ease-in-out duration-150", data: [confirm: "Resetting the stats cannot be reversed. Are you sure?"]) %>
+      <%= link gettext("Reset %{domain} stats",domain: @site.domain), to: "/#{URI.encode_www_form(@site.domain)}/stats", method: :delete, class: "inline-block mt-4 px-4 py-2 border border-gray-300 dark:border-gray-500 text-sm leading-5 font-medium rounded-md text-red-700 bg-white dark:bg-gray-800 hover:text-red-500 dark:hover:text-red-400 focus:outline-none focus:border-blue-300 focus:ring active:text-red-800 active:bg-gray-50 transition ease-in-out duration-150", data: [confirm: "Resetting the stats cannot be reversed. Are you sure?"]%>
     </li>
     <div class="border-b border-gray-200 dark:border-gray-500"></div>
 

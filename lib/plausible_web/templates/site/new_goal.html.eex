@@ -18,7 +18,7 @@
     </div>
   </div>
 
-  <%= submit gettext "Add goal →", class: "button mt-4 w-full" %>
+  <%= submit gettext("Add goal →"), class: "button mt-4 w-full" %>
 <% end %>
 
 <script>

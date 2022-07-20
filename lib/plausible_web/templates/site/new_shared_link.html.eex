@@ -3,7 +3,7 @@
   <div class="my-4 dark:text-gray-100">
   </div>
   <div class="my-4">
-    <%= label f, :name, "Name", class: "block text-sm font-medium text-gray-700 dark:text-gray-100" %>
+    <%= label f, :name, gettext("Name"), class: "block text-sm font-medium text-gray-700 dark:text-gray-100" %>
     <div class="mt-1">
       <%= text_input f, :name, class: "shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md", required: "required", autocomplete: "off" %>
       <%= error_tag f, :name %>
@@ -20,5 +20,5 @@
     </div>
   </div>
 
-  <%= submit gettext "Create shared link", class: "button mt-4 w-full" %>
+  <%= submit gettext("Create shared link"), class: "button mt-4 w-full" %>
 <% end %>

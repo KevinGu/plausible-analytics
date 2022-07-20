@@ -22,5 +22,5 @@
       <div class="mt-4 dark:text-gray-100"><%= gettext "No goals configured for this site yet"%>"/div>
     <% end %>
 
-  <%= link("+ Add goal", to: "/#{URI.encode_www_form(@site.domain)}/goals/new", class: "button mt-6") %>
+  <%= link(gettext("+ Add goal"), to: "/#{URI.encode_www_form(@site.domain)}/goals/new", class: "button mt-6") %>
 </div>

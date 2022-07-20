@@ -15,7 +15,7 @@
           <div class="mt-2 text-sm text-yellow-700">
             <p>
               <%= gettext "To access the sites you own, you need to subscribe to a monthly or yearly payment plan." %>
-            <%= link(gettext "Upgrade now →", to: "/settings", class: "text-sm font-medium text-yellow-800") %>
+            <%= link gettext("Upgrade now →"), to: "/settings", class: "text-sm font-medium text-yellow-800" %>
             </p>
           </div>
         </div>

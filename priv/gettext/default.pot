@@ -217,17 +217,13 @@ msgid "Confirm plan change"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/stats/site_locked.html.eex:28
-msgid "Contact %{email} and ask them to"
-msgstr ""
-
-#, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/stats/waiting_first_pageview.html.eex:33
 msgid "Contact us"
 msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/new_api_key.html.eex:20
+#: lib/plausible_web/templates/stats/shared_link_password.html.eex:16
 msgid "Continue"
 msgstr ""
 
@@ -454,7 +450,6 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_general.html.eex:112
-#: lib/plausible_web/templates/site/settings_search_console.html.eex:53
 msgid "Find instructions"
 msgstr ""
 
@@ -495,6 +490,7 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/import_from_google_confirm.html.eex:14
+#: lib/plausible_web/templates/site/import_from_google_view_id_form.html.eex:14
 msgid "Google Analytics view"
 msgstr ""
 
@@ -704,17 +700,14 @@ msgid "My sites"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/site/settings_search_console.html.eex:46
-msgid "NB: You also need to set up your site on"
-msgstr ""
-
-#, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_search_console.html.eex:21
 msgid "NB: Your Google account does not have access to your currently configured property, %{property}. Please select a verified property from the list below."
 msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:230
+#: lib/plausible_web/templates/site/edit_shared_link.html.eex:4
+#: lib/plausible_web/templates/site/new_shared_link.html.eex:6
 msgid "Name"
 msgstr ""
 
@@ -1429,11 +1422,6 @@ msgid "first<br/> Still not working? Ask on our "
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/site/settings_search_console.html.eex:46
-msgid "for the integration to work."
-msgstr ""
-
-#, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_general.html.eex:112
 #: lib/plausible_web/templates/site/settings_search_console.html.eex:53
 msgid "here"
@@ -1448,16 +1436,6 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/index.html.eex:97
 msgid "of"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/stats/site_locked.html.eex:28
-msgid "of the site over to you"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/stats/waiting_first_pageview.html.eex:24
-msgid "on"
 msgstr ""
 
 #, elixir-autogen, elixir-format
@@ -1564,4 +1542,131 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/register_form.html.eex:56
 msgid "Start my free trial →"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_search_console.html.eex:32
+msgid "(Choose property)"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/import_from_google_view_id_form.html.eex:15
+msgid "(Choose view)"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_goals.html.eex:25
+msgid "+ Add goal"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_general.html.eex:77
+msgid "Cancel import"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_general.html.eex:93
+msgid "Clear %{imported_pageviews} imported pageviews"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/stats/stats.html.eex:4
+msgid "Click here to enable weekly email reports →"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/stats/site_locked.html.eex:28
+msgid "Contact %{email} and ask them to %{to} of the site over to you"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_danger_zone.html.eex:4
+msgid "Danger zone"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_danger_zone.html.eex:5
+msgid "Destructive actions below can result in irrecoverable data loss. Be careful."
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/membership/invite_member_form.html.eex:17
+#: lib/plausible_web/templates/site/membership/transfer_ownership_form.html.eex:17
+msgid "Email address"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_search_console.html.eex:53
+msgid "Find instructions %{here}"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_general.html.eex:74
+#: lib/plausible_web/templates/site/settings_general.html.eex:90
+msgid "From %{from} to %{to}"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/layout/app.html.eex:10
+msgid "Hrefgo · Simple, privacy-friendly alternative to Google Analytics"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/layout/focus.html.eex:9
+msgid "Hrefgo · Web analytics"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/membership/invite_member_form.html.eex:2
+msgid "Invite member to %{domain}"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_search_console.html.eex:46
+msgid "NB: You also need to set up your site on %{link} for the integration to work. %{docs}"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_custom_domain.html.eex:35
+msgid "Remove custom domain"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/stats/stats.html.eex:23
+msgid "Start your free trial today."
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/membership/transfer_ownership_form.html.eex:2
+msgid "Transfer ownership of %{domain}"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_people.html.eex:53
+msgid "Transfer ownership →"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_search_console.html.eex:15
+msgid "Unlink Google account"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/edit_shared_link.html.eex:11
+msgid "Update"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/stats/waiting_first_pageview.html.eex:24
+msgid "on %{domain}"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/stats/site_locked.html.eex:28
+msgid "transfer the ownership"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/layout/site_settings.html.eex:3
+msgid "← Back to stats"
 msgstr ""

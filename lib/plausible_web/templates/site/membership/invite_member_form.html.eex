@@ -1,5 +1,5 @@
 <%= form_for @conn, Routes.membership_path(@conn, :invite_member, @site.domain), [class: "max-w-lg w-full mx-auto bg-white dark:bg-gray-800 shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-8"], fn f -> %>
-  <h2 class="text-xl font-black dark:text-gray-100">Invite member to <%= @site.domain %></h2>
+  <h2 class="text-xl font-black dark:text-gray-100"><%= gettext "Invite member to %{domain}",domain: @site.domain %></h2>
 
   <p class="mt-4 max-w-2xl text-sm text-gray-500 dark:text-gray-200">
     <%= gettext "Enter the email address and role of the person you want to invite. We will contact them over email to offer them access to %{domain} analytics.", domain: @site.domain %>
@@ -14,7 +14,7 @@
   <% end %>
 
   <div class="my-6">
-    <%= label f, :email, "Email address", class: "block text-sm font-medium text-gray-700 dark:text-gray-300" %>
+    <%= label f, :email, gettext("Email address"), class: "block text-sm font-medium text-gray-700 dark:text-gray-300" %>
     <div class="mt-1 relative rounded-md shadow-sm">
       <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
         <svg class="h-5 w-5 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg>

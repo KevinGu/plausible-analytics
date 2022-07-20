@@ -33,5 +33,5 @@
       <p class="text-red-700 font-medium mt-3"><%= error %></p>
     <% end %>
 
-  <%= submit(gettext "Confirm import", class: "button mt-6") %>
+  <%= submit(gettext("Confirm import"), class: "button mt-6") %>
 <% end %>

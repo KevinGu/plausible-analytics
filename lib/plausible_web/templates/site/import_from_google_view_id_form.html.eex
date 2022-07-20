@@ -11,8 +11,8 @@
       </div>
 
       <div class="mt-3">
-        <%= styled_label(f, :view_id, "Google Analytics view") %>
-        <%= styled_select f, :view_id, view_ids, prompt: "(Choose view)", required: "true" %>
+        <%= styled_label(f, :view_id, gettext("Google Analytics view")) %>
+        <%= styled_select f, :view_id, view_ids, prompt: gettext("(Choose view)"), required: "true" %>
         <%= styled_error(@conn.assigns[:selected_view_id_error]) %>
       </div>
     <% {:error, error} -> %>
@@ -20,5 +20,5 @@
       <p class="text-red-700 font-medium mt-3"><%= error %></p>
     <% end %>
 
-    <%= submit gettext "Continue ->", class: "button mt-6" %>
+    <%= submit gettext("Continue ->"), class: "button mt-6" %>
 <% end %>

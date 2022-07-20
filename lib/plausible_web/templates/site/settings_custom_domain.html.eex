@@ -11,7 +11,7 @@
       </h3>
       <div class="mt-2 text-sm text-yellow-700 dark:text-yellow-300">
         <p>
-          <%= gettext "We are moving away from CNAME-based custom domains. If you're concerned about adblockers, we recommend %{link} for your analytics script instead.", link: link(gettext "setting up a proxy", class: "underline text-yellow-800 dark:text-yellow-400", to: "https://plausible.io/docs/proxy/introduction", target: "_blank", rel: "noferrer")%>
+          <%= raw gettext "We are moving away from CNAME-based custom domains. If you're concerned about adblockers, we recommend %{link} for your analytics script instead.", link: safe_to_string(link(gettext("setting up a proxy"), class: "underline text-yellow-800 dark:text-yellow-400", to: "https://plausible.io/docs/proxy/introduction", target: "_blank", rel: "noferrer"))%>
         </p>
       </div>
     </div>
@@ -32,7 +32,7 @@
       <span>
         <%= gettext "Configured domain:"%> <b><%= @site.custom_domain.domain %></b>
       </span>
-        <%= link("Remove custom domain", to: "/sites/#{URI.encode_www_form(@site.domain)}/custom-domains/#{@site.custom_domain.id}", class: "inline-block mt-4 px-4 py-2 border border-gray-300 dark:border-gray-500 text-sm leading-5 font-medium rounded-md text-red-700 bg-white dark:bg-gray-800 hover:text-red-500 dark:hover:text-red-400 focus:outline-none focus:border-blue-300 focus:ring active:text-red-800 active:bg-gray-50 transition ease-in-out duration-150", method: "delete") %>
+        <%= link gettext("Remove custom domain"), to: "/sites/#{URI.encode_www_form(@site.domain)}/custom-domains/#{@site.custom_domain.id}", class: "inline-block mt-4 px-4 py-2 border border-gray-300 dark:border-gray-500 text-sm leading-5 font-medium rounded-md text-red-700 bg-white dark:bg-gray-800 hover:text-red-500 dark:hover:text-red-400 focus:outline-none focus:border-blue-300 focus:ring active:text-red-800 active:bg-gray-50 transition ease-in-out duration-150", method: "delete" %>
     <% end %>
   </div>
 </div>

@@ -59,12 +59,12 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:216
 msgid "API keys"
-msgstr ""
+msgstr "API keys"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:192
 msgid "Account settings"
-msgstr ""
+msgstr "账号设置"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/activate.html.eex:14
@@ -74,7 +74,7 @@ msgstr "激活"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/register_success.html.eex:20
 msgid "Activate &rarr;"
-msgstr ""
+msgstr "激活 &rarr;"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/activate.html.eex:4
@@ -86,17 +86,17 @@ msgstr "激活您的账号"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/new_goal.html.eex:2
 msgid "Add goal for %{domain}"
-msgstr ""
+msgstr "为%{domain}创建目标"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/new_goal.html.eex:21
 msgid "Add goal →"
-msgstr ""
+msgstr "添加目标 →"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/snippet.html.eex:3
 msgid "Add javascript snippet"
-msgstr ""
+msgstr "增加javascript代码片段"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_email_reports.html.eex:53
@@ -108,7 +108,7 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/membership/invite_member_form.html.eex:34
 msgid "Admin"
-msgstr ""
+msgstr "管理员"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/register_form.html.eex:59
@@ -142,18 +142,18 @@ msgstr "访问我们的"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/change_plan_preview.html.eex:70
 msgid "Back"
-msgstr ""
+msgstr "返回"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/stats/site_locked.html.eex:32
 #: lib/plausible_web/templates/stats/site_locked.html.eex:42
 msgid "Back to my sites"
-msgstr ""
+msgstr "返回到我的站点"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/new_api_key.html.eex:15
 msgid "COPY"
-msgstr ""
+msgstr "复制"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/membership/invite_member_form.html.eex:49
@@ -200,35 +200,31 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_custom_domain.html.eex:33
 msgid "Configured domain:"
-msgstr ""
+msgstr "配置域名："
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/import_from_google_confirm.html.eex:36
 msgid "Confirm import"
-msgstr ""
+msgstr "确认导入"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/change_plan_preview.html.eex:2
 msgid "Confirm new subscription plan"
-msgstr ""
+msgstr "确认新的订阅计划"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/change_plan_preview.html.eex:74
 msgid "Confirm plan change"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/stats/site_locked.html.eex:28
-msgid "Contact %{email} and ask them to"
-msgstr ""
+msgstr "确认变更计划"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/stats/waiting_first_pageview.html.eex:33
 msgid "Contact us"
-msgstr ""
+msgstr "联系我么"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/new_api_key.html.eex:20
+#: lib/plausible_web/templates/stats/shared_link_password.html.eex:16
 msgid "Continue"
 msgstr "继续"
 
@@ -252,7 +248,7 @@ msgstr "创建新的 API Key"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/new_shared_link.html.eex:23
 msgid "Create shared link"
-msgstr ""
+msgstr "创建共享链接"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_email_reports.html.eex:139
@@ -267,7 +263,7 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_custom_domain.html.eex:23
 msgid "Custom domain"
-msgstr ""
+msgstr "自定义域名"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/new_goal.html.eex:5
@@ -287,17 +283,17 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:178
 msgid "Dashboard Appearance"
-msgstr ""
+msgstr "仪表盘样式"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/layout/_notice.html.eex:41
 msgid "Dashboard locked"
-msgstr ""
+msgstr "仪表盘锁定"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_general.html.eex:54
 msgid "Data Import from Google Analytics"
-msgstr ""
+msgstr "导入谷歌分析数据"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:146
@@ -314,12 +310,12 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_danger_zone.html.eex:29
 msgid "Delete %{domain}"
-msgstr ""
+msgstr "删除%{domain}"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:267
 msgid "Delete account"
-msgstr ""
+msgstr "删除账号"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:275
@@ -330,7 +326,7 @@ msgstr "注销账号"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_danger_zone.html.eex:23
 msgid "Delete site"
-msgstr ""
+msgstr "删除站点"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/activate.html.eex:35
@@ -340,7 +336,7 @@ msgstr "删除此账号"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/activate.html.eex:35
 msgid "Deleting your account cannot be reversed. Are you sure?"
-msgstr ""
+msgstr "被删除的账号不可恢复，您确认要删除么？"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:272
@@ -388,12 +384,12 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_people.html.eex:115
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/edit_shared_link.html.eex:2
 msgid "Edit shared link"
-msgstr ""
+msgstr "编辑共享链接"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/login_form.html.eex:10
@@ -455,7 +451,6 @@ msgstr "输入了错误的邮件地址？"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_general.html.eex:112
-#: lib/plausible_web/templates/site/settings_search_console.html.eex:53
 msgid "Find instructions"
 msgstr ""
 
@@ -487,7 +482,7 @@ msgstr "开始"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/error/error.html.eex:18
 msgid "Go to the homepage"
-msgstr ""
+msgstr "前往主页"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/new_goal.html.eex:3
@@ -496,6 +491,7 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/import_from_google_confirm.html.eex:14
+#: lib/plausible_web/templates/site/import_from_google_view_id_form.html.eex:14
 msgid "Google Analytics view"
 msgstr ""
 
@@ -584,12 +580,12 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/membership/invite_member_form.html.eex:59
 msgid "Invite"
-msgstr ""
+msgstr "邀请"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:152
 msgid "Invoice"
-msgstr ""
+msgstr "发票"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:131
@@ -600,7 +596,7 @@ msgstr "发票"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_general.html.eex:32
 msgid "Javascript snippet"
-msgstr ""
+msgstr "Javascript代码片段"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/new.html.eex:48
@@ -681,13 +677,13 @@ msgstr "最少6个字符"
 #: lib/plausible_web/templates/billing/change_plan.html.eex:66
 #: lib/plausible_web/templates/billing/upgrade.html.eex:64
 msgid "Monthly billing"
-msgstr ""
+msgstr "月度账单"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/change_plan.html.eex:82
 #: lib/plausible_web/templates/billing/upgrade.html.eex:80
 msgid "Monthly pageviews"
-msgstr ""
+msgstr "月度浏览量"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:35
@@ -697,42 +693,39 @@ msgstr "月度配额"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_email_reports.html.eex:75
 msgid "Monthly report recipients"
-msgstr ""
+msgstr "月度报告收件人"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/index.html.eex:28
 msgid "My sites"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/site/settings_search_console.html.eex:46
-msgid "NB: You also need to set up your site on"
-msgstr ""
+msgstr "我的站点"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_search_console.html.eex:21
 msgid "NB: Your Google account does not have access to your currently configured property, %{property}. Please select a verified property from the list below."
-msgstr ""
+msgstr "注意：您的 Google 帐户无权访问您当前配置的属性（%{property}），请从下面的列表中选择经过验证的属性。"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:230
+#: lib/plausible_web/templates/site/edit_shared_link.html.eex:4
+#: lib/plausible_web/templates/site/new_shared_link.html.eex:6
 msgid "Name"
 msgstr "名字"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/change_enterprise_plan_contact_us.html.eex:8
 msgid "Need to change your limits?"
-msgstr ""
+msgstr "需要更改配额？"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/stats/waiting_first_pageview.html.eex:28
 msgid "Need to see the snippet again? "
-msgstr ""
+msgstr "需要查看埋点代码？"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/new_shared_link.html.eex:2
 msgid "New shared link"
-msgstr ""
+msgstr "新的分享链接"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:51
@@ -747,12 +740,12 @@ msgstr "下期订单时间"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/change_plan_preview.html.eex:39
 msgid "Next payment"
-msgstr ""
+msgstr "下期付款"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_goals.html.eex:22
 msgid "No goals configured for this site yet"
-msgstr ""
+msgstr "此站点没有配置目标"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/register_form.html.eex:19
@@ -768,27 +761,27 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_email_reports.html.eex:155
 msgid "Notification recipients"
-msgstr ""
+msgstr "通知收件人"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_visibility.html.eex:79
 msgid "Only public shared links without password protection can be embedded"
-msgstr ""
+msgstr "只有没有密码保护的公共共享链接才能被嵌入其他页面"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_people.html.eex:41
 msgid "Owner"
-msgstr ""
+msgstr "拥有者"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/new_goal.html.eex:6
 msgid "Pageview"
-msgstr ""
+msgstr "页面浏览量"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:84
 msgid "Pageviews"
-msgstr ""
+msgstr "页面浏览量"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/login_form.html.eex:14
@@ -799,17 +792,17 @@ msgstr "密码"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/new_shared_link.html.eex:13
 msgid "Password (optional)"
-msgstr ""
+msgstr "密码（可选）"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/new_shared_link.html.eex:18
 msgid "Password protection is optional. Please make sure you save it in a secure place. Once the link is created, we cannot reveal the password."
-msgstr ""
+msgstr "密码保护是可选的，请确保将其保存在安全的地方，创建链接后，我们将无法提供密码。"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/snippet.html.eex:5
 msgid "Paste this snippet in the <code>&lt;head&gt;</code> of your website."
-msgstr ""
+msgstr "将此代码段粘贴到您网站的 <code>&lt;head&gt;</code> 中。"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/upgrade.html.eex:105
@@ -825,12 +818,12 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/index.html.eex:48
 msgid "Pending invitation"
-msgstr ""
+msgstr "待处理的邀请"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_people.html.eex:99
 msgid "Pending invitations"
-msgstr ""
+msgstr "待处理的邀请"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/invitation_expired.html.eex:2
@@ -851,25 +844,25 @@ msgstr "请输入我们发送到您电子邮箱<b>%{email}</b>的4位验证码"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/layout/_notice.html.eex:17
 msgid "Please upgrade your account"
-msgstr ""
+msgstr "请升级您的账号"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/change_enterprise_plan.html.eex:55
 #: lib/plausible_web/templates/billing/change_plan.html.eex:105
 #: lib/plausible_web/templates/billing/change_plan.html.eex:110
 msgid "Preview changes"
-msgstr ""
+msgstr "预览更改"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/change_plan.html.eex:85
 #: lib/plausible_web/templates/billing/upgrade.html.eex:83
 msgid "Price"
-msgstr ""
+msgstr "价格"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_visibility.html.eex:3
 msgid "Public dashboard:"
-msgstr ""
+msgstr "公共仪表盘"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/upgrade.html.eex:125
@@ -905,17 +898,17 @@ msgstr "注册您的超狗分析账号"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/index.html.eex:181
 msgid "Reject"
-msgstr ""
+msgstr "拒绝"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_people.html.eex:129
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_people.html.eex:87
 msgid "Remove member"
-msgstr ""
+msgstr "移除成员"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_danger_zone.html.eex:13
@@ -925,12 +918,12 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_danger_zone.html.eex:26
 msgid "Removes all stats along with the site configuration"
-msgstr ""
+msgstr "删除所有综浏览数据但保留网站配置"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_general.html.eex:17
 msgid "Reporting Timezone"
-msgstr ""
+msgstr "报告时区"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/activate.html.eex:49
@@ -940,17 +933,17 @@ msgstr "发送激活码"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/membership/transfer_ownership_form.html.eex:28
 msgid "Request transfer"
-msgstr ""
+msgstr "请求转移"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_danger_zone.html.eex:16
 msgid "Reset %{domain} stats"
-msgstr ""
+msgstr "重置%{domain}统计信息"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_danger_zone.html.eex:10
 msgid "Reset stats"
-msgstr ""
+msgstr "重置统计信息"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/password_reset_form.html.eex:2
@@ -968,7 +961,7 @@ msgstr "撤销"
 #: lib/plausible_web/templates/site/settings_general.html.eex:24
 #: lib/plausible_web/templates/site/settings_search_console.html.eex:36
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_email_reports.html.eex:151
@@ -978,17 +971,17 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_search_console.html.eex:25
 msgid "Select the Google Search Console property you would like to pull keyword data from. If you don't see your domain,"
-msgstr ""
+msgstr "选择您要提取关键字数据的Google Search Console站点。如果您没有看到您的域，"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/change_plan.html.eex:55
 msgid "Select your new plan"
-msgstr ""
+msgstr "选择新的订阅计划"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_email_reports.html.eex:71
 msgid "Send a monthly email report on 1st of the month"
-msgstr ""
+msgstr "每月第一天发送月度报告邮件"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/activate.html.eex:23
@@ -998,12 +991,12 @@ msgstr "发送新的验证码"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_email_reports.html.eex:20
 msgid "Send a weekly email report every Monday"
-msgstr ""
+msgstr "每周一发送周报邮件"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_email_reports.html.eex:132
 msgid "Send notifications of traffic spikes"
-msgstr ""
+msgstr "发送流量高峰通知"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/password_reset_request_form.html.eex:21
@@ -1013,12 +1006,12 @@ msgstr "发送重置链接 →"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_email_reports.html.eex:4
 msgid "Send weekly/monthly analytics reports to as many addresses as you wish"
-msgstr ""
+msgstr "发送周/月分析报告到你需要的电子邮箱"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_custom_domain.html.eex:24
 msgid "Serve the tracking script from your domain name as a first-party resource instead of loading the script from our domain."
-msgstr ""
+msgstr "将您的域名中的跟踪脚本作为第一方资源提供，而不是从我们的域中加载脚本。"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/password_form.html.eex:10
@@ -1046,17 +1039,17 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_visibility.html.eex:4
 msgid "Share your stats publicly or keep them private"
-msgstr ""
+msgstr "公开分享/保密您的统计数据"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_visibility.html.eex:29
 msgid "Shared links"
-msgstr ""
+msgstr "分享链接"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/index.html.eex:95
 msgid "Showing page"
-msgstr ""
+msgstr "显示页面"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/stats/site_locked.html.eex:8
@@ -1066,7 +1059,7 @@ msgstr "锁定网站"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_people.html.eex:42
 msgid "Site owner cannot be assigned to any other role"
-msgstr ""
+msgstr "不能将网站所有者分配给其他角色"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/user_settings.html.eex:134
@@ -1076,7 +1069,7 @@ msgstr "出问题了"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/snippet.html.eex:14
 msgid "Start collecting data →"
-msgstr ""
+msgstr "开始收集数据 →"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/import_from_google_confirm.html.eex:10
@@ -1091,7 +1084,7 @@ msgstr "订阅计划"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/upgrade_success.html.eex:4
 msgid "Subscription created successfully"
-msgstr ""
+msgstr "订阅成功"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/password_reset_request_success.html.eex:2
@@ -1101,32 +1094,32 @@ msgstr "成功！"
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_visibility.html.eex:90
 msgid "System"
-msgstr ""
+msgstr "系统"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/upgrade_success.html.eex:8
 msgid "Thank you for upgrading your subscription. You will be redirected to your account within 5 seconds."
-msgstr ""
+msgstr "感谢您升级订阅。您将在 5 秒内被重定向到您的帐户。"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_search_console.html.eex:39
 msgid "The following error happened when fetching your Google Search Console domains."
-msgstr ""
+msgstr "获取您的 Google Search Console 域时发生以下错误。"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/import_from_google_confirm.html.eex:32
 msgid "The following error occurred when fetching your Google Analytics data."
-msgstr ""
+msgstr "获取您的 Google Analytics（分析）数据时出现以下错误。"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/import_from_google_view_id_form.html.eex:19
 msgid "The following error occurred when fetching your Google Analytics view ids."
-msgstr ""
+msgstr "获取您的 Google Analytics（分析）视图 ID 时出现以下错误。"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/membership/invite_member_form.html.eex:9
 msgid "The invitation will expire in 48 hours"
-msgstr ""
+msgstr "邀请将在 48 小时后过期"
 
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/billing/change_enterprise_plan.html.eex:46
@@ -1430,11 +1423,6 @@ msgid "first<br/> Still not working? Ask on our "
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/site/settings_search_console.html.eex:46
-msgid "for the integration to work."
-msgstr ""
-
-#, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/settings_general.html.eex:112
 #: lib/plausible_web/templates/site/settings_search_console.html.eex:53
 msgid "here"
@@ -1449,16 +1437,6 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/site/index.html.eex:97
 msgid "of"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/stats/site_locked.html.eex:28
-msgid "of the site over to you"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/plausible_web/templates/stats/waiting_first_pageview.html.eex:24
-msgid "on"
 msgstr ""
 
 #, elixir-autogen, elixir-format
@@ -1565,4 +1543,131 @@ msgstr ""
 #, elixir-autogen, elixir-format
 #: lib/plausible_web/templates/auth/register_form.html.eex:56
 msgid "Start my free trial →"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_search_console.html.eex:32
+msgid "(Choose property)"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/import_from_google_view_id_form.html.eex:15
+msgid "(Choose view)"
+msgstr ""
+
+#, elixir-autogen, elixir-format, fuzzy
+#: lib/plausible_web/templates/site/settings_goals.html.eex:25
+msgid "+ Add goal"
+msgstr ""
+
+#, elixir-autogen, elixir-format, fuzzy
+#: lib/plausible_web/templates/site/settings_general.html.eex:77
+msgid "Cancel import"
+msgstr "取消我的订阅"
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_general.html.eex:93
+msgid "Clear %{imported_pageviews} imported pageviews"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/stats/stats.html.eex:4
+msgid "Click here to enable weekly email reports →"
+msgstr ""
+
+#, elixir-autogen, elixir-format, fuzzy
+#: lib/plausible_web/templates/stats/site_locked.html.eex:28
+msgid "Contact %{email} and ask them to %{to} of the site over to you"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_danger_zone.html.eex:4
+msgid "Danger zone"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_danger_zone.html.eex:5
+msgid "Destructive actions below can result in irrecoverable data loss. Be careful."
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/membership/invite_member_form.html.eex:17
+#: lib/plausible_web/templates/site/membership/transfer_ownership_form.html.eex:17
+msgid "Email address"
+msgstr ""
+
+#, elixir-autogen, elixir-format, fuzzy
+#: lib/plausible_web/templates/site/settings_search_console.html.eex:53
+msgid "Find instructions %{here}"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_general.html.eex:74
+#: lib/plausible_web/templates/site/settings_general.html.eex:90
+msgid "From %{from} to %{to}"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/layout/app.html.eex:10
+msgid "Hrefgo · Simple, privacy-friendly alternative to Google Analytics"
+msgstr ""
+
+#, elixir-autogen, elixir-format, fuzzy
+#: lib/plausible_web/templates/layout/focus.html.eex:9
+msgid "Hrefgo · Web analytics"
+msgstr "超狗分析"
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/membership/invite_member_form.html.eex:2
+msgid "Invite member to %{domain}"
+msgstr ""
+
+#, elixir-autogen, elixir-format, fuzzy
+#: lib/plausible_web/templates/site/settings_search_console.html.eex:46
+msgid "NB: You also need to set up your site on %{link} for the integration to work. %{docs}"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_custom_domain.html.eex:35
+msgid "Remove custom domain"
+msgstr ""
+
+#, elixir-autogen, elixir-format, fuzzy
+#: lib/plausible_web/templates/stats/stats.html.eex:23
+msgid "Start your free trial today."
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/membership/transfer_ownership_form.html.eex:2
+msgid "Transfer ownership of %{domain}"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/settings_people.html.eex:53
+msgid "Transfer ownership →"
+msgstr ""
+
+#, elixir-autogen, elixir-format, fuzzy
+#: lib/plausible_web/templates/site/settings_search_console.html.eex:15
+msgid "Unlink Google account"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/site/edit_shared_link.html.eex:11
+msgid "Update"
+msgstr ""
+
+#, elixir-autogen, elixir-format, fuzzy
+#: lib/plausible_web/templates/stats/waiting_first_pageview.html.eex:24
+msgid "on %{domain}"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/stats/site_locked.html.eex:28
+msgid "transfer the ownership"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/plausible_web/templates/layout/site_settings.html.eex:3
+msgid "← Back to stats"
 msgstr ""
